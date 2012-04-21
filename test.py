@@ -3,8 +3,8 @@ import GUPA
 def run_complex_test():
     print '** GUPA Python Client Test **'
     # consumer key and secret granted by the GUPA
-    consumer_key = 'jMlZNG87fHRGeCXSKhNQLRWfLcCkEchO'
-    consumer_secret = 'PuDs0Cq687CczqU9xyP8eCdPEFZ8I7Mm'
+    consumer_key = 'XXXX'
+    consumer_secret = 'XXXX'
     client = GUPA(consumer_key, consumer_secret)
     pause()
 
@@ -43,8 +43,8 @@ def run_complex_test():
 def run_simple_test():
     print '** GUPA Python Client Test **'
     # consumer key and secret granted by the GUPA
-    consumer_key = 'jMlZNG87fHRGeCXSKhNQLRWfLcCkEchO'
-    consumer_secret = 'PuDs0Cq687CczqU9xyP8eCdPEFZ8I7Mm'
+    consumer_key = 'XXXX'
+    consumer_secret = 'XXXX'
     client = GUPAClient(consumer_key, consumer_secret)
     pause()
     # access some protected resources
