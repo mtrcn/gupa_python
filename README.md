@@ -12,13 +12,14 @@ Usage
 
 To make [GUPA][GUPA] calls:
 
-consumer_key = 'XXXX'
-consumer_secret = 'XXXX'
-client = GUPAClient(consumer_key, consumer_secret)
-
-parameters = {'point': 'POINT(1000.0 1000.0)', 'distance': '121.26', 'azimuth': '168.3460'}
-response = client.access_resource(parameters, '/basic_calc/coord/')
+```python
+consumer_key = 'XXXX'  
+consumer_secret = 'XXXX'  
+client = GUPAClient(consumer_key, consumer_secret)  
+parameters = {'point': 'POINT(1000.0 1000.0)', 'distance': '121.26', 'azimuth': '168.3460'}  
+response = client.access_resource(parameters, '/basic_calc/coord/')  
 print response
+```
 			
 
 [GUPA]: http://www.geomatikuygulamalar.com/gupa
